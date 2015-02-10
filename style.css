@@ -1,0 +1,73 @@
+#orb {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    padding: 20px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+#sky {
+    height: 625px;
+}
+
+.sun:hover {
+    border: 20px solid #f1c40f;
+}
+
+.sun {
+    background-color: #ffdd00;
+    border: 10px solid #f1c40f;
+}
+
+.moon:hover{
+    border: 20px solid #eaeff2;
+}
+
+.moon {
+    background-color: #bdc3c7;
+    border: 10px solid #eaeff2;
+}
+
+.night {
+    background-color: #2c3e50;
+}
+
+.day {
+    background-color: #37d8e6;
+}
+
+#moonspot1 {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    float:right;
+    margin: auto;
+    top: 180px; left: 0; bottom: 0; right: 0;
+    position: absolute;
+}
+
+#moonspot2 {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    float:right;
+    margin: auto;
+    top: 0; left: 60px; bottom: 0; right: 0;
+    position: absolute;
+}
+
+#moonspot3 {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    float:right;
+    margin: auto;
+    top: 0; left: 0; bottom: 100px; right: 90px;
+    position: absolute;
+}
+
+.visible {
+    background-color: #eaeff2;
+}
